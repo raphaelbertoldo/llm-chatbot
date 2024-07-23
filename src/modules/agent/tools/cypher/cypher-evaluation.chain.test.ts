@@ -53,7 +53,7 @@ describe("Cypher Evaluation Chain", () => {
     let found = false;
 
     for (const error of errors) {
-      if (error.includes("label Muvee does not exist")) {
+      if (error.includes("Label 'Muvee' does not exist")) {
         found = true;
       }
     }
